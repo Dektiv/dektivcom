@@ -1,0 +1,13 @@
+enable  : true
+title   : Meet the team
+members  :
+  - image       : images/team/user1.png
+    name        : HAYO CARRETTE
+    designation : CEO & Co-Founder
+    linkedin    : https://www.linkedin.com/in/hayo-carrette/
+
+  - image       : images/team/user.png
+    name        : BERNARD CARRETTE
+    designation : CTO & Co-Founder
+    linkedin    : https://www.linkedin.com/
+
