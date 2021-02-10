@@ -13,7 +13,7 @@ summarylength = 25
     weight  = 1
   [[menu.nav]]
     name    = "Solution"
-    url     = "portfolio"
+    url     = "solution"
     weight  = 2
   [[menu.nav]]
     name    = "About"
@@ -50,7 +50,7 @@ summarylength = 25
     heading               = "Automated Shoplifting Detection"
     tagline               = ""
     primary_button        = "See How It Works"
-    primary_button_url    = "portfolio"
+    primary_button_url    = "solution"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
@@ -64,7 +64,7 @@ summarylength = 25
     background_image    = "images/backgrounds/cta-background.jpg"
     title               = "LET’S WORK TOGETHER"
     primary_button      = "Learn more"
-    primary_button_url  = "portfolio"
+    primary_button_url  = "solution"
     secondary_button    = "Contact us"
     secondary_button_url = "contact"
 
