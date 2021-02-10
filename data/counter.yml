@@ -1,0 +1,14 @@
+enable : true
+heading : "Shoplifting across Europe"
+counter_item: 
+  - title: "Annual loss"
+    number: "€18 billion"
+
+  - title: "Incidents daily"
+    number: "50,000"
+
+  - title: "Shoplifters caught"
+    number: "1 in 50"
+
+  - title: "Spent on security"
+    number: "€22 billion"

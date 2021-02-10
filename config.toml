@@ -1,0 +1,98 @@
+baseURL       = "/"
+languageCode  = "en-us"
+title         = "Dektiv | Shoplifting Detection"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Solution"
+    url     = "portfolio"
+    weight  = 2
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 4
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Dektiv | Automated Shoplifting Detection"
+  author = "Dektiv"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background22.jpg"
+    heading               = "Automated Shoplifting Detection"
+    tagline               = ""
+    primary_button        = "See How It Works"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Connect with Us"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "The future of shoplifting prevention"
+    subtitle  = "Using state of the art artificial intelligence to detect shoplifters."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Learn more"
+    primary_button_url  = "portfolio"
+    secondary_button    = "Contact us"
+    secondary_button_url = "contact"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "Leuven, Belgium"
+      email   = "info@dektiv.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Solution"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "LinkedIn"
+          url  = "https://www.linkedin.com/company/dektiv/"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help retail:"
+        description = "reduce shrink <br> get rid of bias<br> automate"
