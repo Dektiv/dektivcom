@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<!-- <section class="site-project-header">
+ <section class="site-project-header">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-8">
@@ -21,6 +21,50 @@
 </section>
 
 <section class="site-project" id="project">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm site-project-step">
+        <span>STEP 1</span>
+        <h3>Stream</h3>
+        <img src="{{ "images/projects/cloud.png" | absURL }}" alt="cloud"/>
+        <p>Install the streaming connector in 10 minutes to enable existing camera systems to stream to the cloud.</p>
+      </div>
+      <div class="col-sm site-project-step">
+        <span>STEP 2</span>
+        <h3>Analyze</h3>
+        <img src="{{ "images/projects/analyze.png" | absURL }}" alt="analyze"/>
+        <p>Footage in the cloud is analyzed real-time by Dektiv with state of the art machine learning algorithms.</p>
+      </div>
+      <div class="col-sm site-project-step">
+        <span>STEP 3</span>
+        <h3>Receive alerts</h3>
+        <img src="{{ "images/projects/alert.png" | absURL }}" alt="alert"/>
+        <p>When Dektiv detects shoplifting behavior, a notification is sent immediately to the on-site responsible.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="site-project-deep" style="background-color: #f7f9ff;">
+  <div class="container">
+    <div class="row">
+      <h2>Behind the scenes of <span>Dektiv</span></h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="site-project-header-content">
+          <img src="{{ "images/projects/shoplifting.png" | absURL }}" alt="skeleton"/>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="site-project-header-content">
+          <p style="font-size: 20px;">Dektiv uses 3D representations to detect shoplifting, focusing on the movements of customers. This eliminates any bias against race, age or gender.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--<section class="site-project" id="project">
   <div class="container">
     <div class="row">
       {{ range (.Paginator 4).Pages }}
