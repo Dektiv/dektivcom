@@ -73,7 +73,7 @@ summarylength = 25
     [params.footer.contactInfo]
       title   = "Contact Info"
       address = "Leuven, Belgium"
-      email   = "dektivinfo@gmail.com"
+      email   = "info@dektiv.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
